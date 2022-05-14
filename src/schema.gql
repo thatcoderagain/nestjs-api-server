@@ -1,0 +1,19 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Message {
+  deleted_at: String
+  delivered_at: String
+  from: String!
+  id: Float!
+  read_at: String
+  sent_at: String
+  text: String!
+  to: String!
+  type: String!
+}
+
+type Query {
+  messages: [Message!]!
+}
